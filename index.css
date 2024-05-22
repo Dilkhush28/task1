@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: black;
+}
+
+navigation {
+  display: flex;
+  color: wheat;
+}
+a{
+    margin: 20px;
+    color: whitE;
+    text-decoration: none;
+}
+.logo{
+    margin-bottom: 1rem;
+}
+.body-sec {
+    margin-top: -10rem;
+  position: relative;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  font-size: 10rem;
+  font-weight: 500;
+  margin-left: 20px;
+  color: rgb(21, 19, 35);
+  margin-bottom: 20px;
+}
+.animation {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  max-width: 60%;
+  width: 50%;
+  margin: 2px;
+  padding-left: 1px;
+  overflow:auto;
+  gap: 1rem;
+  left: 18px;
+  top: 250px;
+  animation-name: dk;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+@keyframes dk{
+    0%{
+        width: 70%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+header .animation {
+  padding-left: 0;
+}
+.animation img {
+    background-color: wheat;
+  width: 70px;
+  height: 500px;
+  overflow: auto;
+  justify-content: left;
+  text-align: left;
+  animation-name: dk;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+aside {
+    margin-top: 2rem;
+  max-width: 30%;
+  width: 100%;
+}
+header {
+  max-width: 65%;
+  width: 100%;
+}
+.imeges_artish img {
+  aspect-ratio: 3/3;
+  height: 180px;
+  width: 130px;
+  overflow: visible;
+}
